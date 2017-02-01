@@ -1,0 +1,18 @@
+/*when logged in push the navbar down*/
+
+
+
+.admin-bar .navbar.fixed-top {
+    margin-top: 30px;
+}
+
+/*style currently selected nav items*/
+.current-menu-item > a {
+    background: #000;
+    coloe: #fff;
+}
+
+/* Headings */
+h1, h2, h3, h4 {
+  font-family: 'Open Sans', sans-serif;
+}
