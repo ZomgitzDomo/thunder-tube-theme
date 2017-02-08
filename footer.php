@@ -1,7 +1,7 @@
 <hr>
 
 <footer>
-<p>&copy; Company 2017</p>
+ <p>&copy; <?php bloginfo('name'); ?> <?php echo date('Y'); ?></p>
 <?php
     $defaults = array(
     'theme_location'  => 'secondary-menu',
